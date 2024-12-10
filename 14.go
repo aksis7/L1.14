@@ -35,7 +35,7 @@ func main() {
 	determineType(x)
 
 	// Пример с типом channel
-	x = make(chan int)
+	x = make(chan interface{})
 	determineType(x)
 
 	// Пример с неизвестным типом
